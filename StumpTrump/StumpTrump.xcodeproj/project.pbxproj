@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		423A59F31F05A331005FF286 /* bigchina.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 423A59F01F05A330005FF286 /* bigchina.mp3 */; };
+		423A59F51F05A331005FF286 /* rich.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 423A59F21F05A331005FF286 /* rich.mp3 */; };
+		423A59F71F05A535005FF286 /* americandream.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 423A59F61F05A535005FF286 /* americandream.mp3 */; };
+		42637AE61F057D810050F2B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42637AE51F057D810050F2B1 /* AppDelegate.swift */; };
+		42637AE81F057D810050F2B1 /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 42637AE71F057D810050F2B1 /* Scene.sks */; };
+		42637AEA1F057D810050F2B1 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42637AE91F057D810050F2B1 /* Scene.swift */; };
+		42637AEC1F057D810050F2B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42637AEB1F057D810050F2B1 /* ViewController.swift */; };
+		42637AF11F057D810050F2B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42637AF01F057D810050F2B1 /* Assets.xcassets */; };
+		42637AF41F057D810050F2B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42637AF21F057D810050F2B1 /* LaunchScreen.storyboard */; };
+		42637AFF1F057D810050F2B1 /* StumpTrumpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42637AFE1F057D810050F2B1 /* StumpTrumpTests.swift */; };
+		42637B0A1F057D810050F2B1 /* StumpTrumpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42637B091F057D810050F2B1 /* StumpTrumpUITests.swift */; };
+		428188651F057F9500D0C942 /* Array+RandomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428188631F057F9400D0C942 /* Array+RandomItem.swift */; };
+		428188661F057F9500D0C942 /* Array+RandomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428188631F057F9400D0C942 /* Array+RandomItem.swift */; };
+		428188671F057F9500D0C942 /* Array+RandomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428188631F057F9400D0C942 /* Array+RandomItem.swift */; };
+		428188681F057F9500D0C942 /* Int+RandomPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428188641F057F9400D0C942 /* Int+RandomPoint.swift */; };
+		428188691F057F9500D0C942 /* Int+RandomPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428188641F057F9400D0C942 /* Int+RandomPoint.swift */; };
+		4281886A1F057F9500D0C942 /* Int+RandomPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428188641F057F9400D0C942 /* Int+RandomPoint.swift */; };
+		4281886C1F0587DD00D0C942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4281886B1F0587DD00D0C942 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42637AFB1F057D810050F2B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42637ADA1F057D810050F2B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42637AE11F057D810050F2B1;
+			remoteInfo = StumpTrump;
+		};
+		42637B061F057D810050F2B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42637ADA1F057D810050F2B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42637AE11F057D810050F2B1;
+			remoteInfo = StumpTrump;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		423A59F01F05A330005FF286 /* bigchina.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bigchina.mp3; sourceTree = "<group>"; };
+		423A59F21F05A331005FF286 /* rich.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rich.mp3; sourceTree = "<group>"; };
+		423A59F61F05A535005FF286 /* americandream.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = americandream.mp3; sourceTree = "<group>"; };
+		42637AE21F057D810050F2B1 /* StumpTrump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StumpTrump.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42637AE51F057D810050F2B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42637AE71F057D810050F2B1 /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
+		42637AE91F057D810050F2B1 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		42637AEB1F057D810050F2B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42637AF01F057D810050F2B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42637AF31F057D810050F2B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42637AF51F057D810050F2B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42637AFA1F057D810050F2B1 /* StumpTrumpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StumpTrumpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42637AFE1F057D810050F2B1 /* StumpTrumpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StumpTrumpTests.swift; sourceTree = "<group>"; };
+		42637B001F057D810050F2B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42637B051F057D810050F2B1 /* StumpTrumpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StumpTrumpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42637B091F057D810050F2B1 /* StumpTrumpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StumpTrumpUITests.swift; sourceTree = "<group>"; };
+		42637B0B1F057D810050F2B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		428188631F057F9400D0C942 /* Array+RandomItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+RandomItem.swift"; sourceTree = "<group>"; };
+		428188641F057F9400D0C942 /* Int+RandomPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+RandomPoint.swift"; sourceTree = "<group>"; };
+		4281886B1F0587DD00D0C942 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42637ADF1F057D810050F2B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42637AF71F057D810050F2B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42637B021F057D810050F2B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42637AD91F057D810050F2B1 = {
+			isa = PBXGroup;
+			children = (
+				42637AE41F057D810050F2B1 /* StumpTrump */,
+				42637AFD1F057D810050F2B1 /* StumpTrumpTests */,
+				42637B081F057D810050F2B1 /* StumpTrumpUITests */,
+				42637AE31F057D810050F2B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42637AE31F057D810050F2B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42637AE21F057D810050F2B1 /* StumpTrump.app */,
+				42637AFA1F057D810050F2B1 /* StumpTrumpTests.xctest */,
+				42637B051F057D810050F2B1 /* StumpTrumpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42637AE41F057D810050F2B1 /* StumpTrump */ = {
+			isa = PBXGroup;
+			children = (
+				42637AE51F057D810050F2B1 /* AppDelegate.swift */,
+				42637AE71F057D810050F2B1 /* Scene.sks */,
+				42637AE91F057D810050F2B1 /* Scene.swift */,
+				42637AEB1F057D810050F2B1 /* ViewController.swift */,
+				4281886B1F0587DD00D0C942 /* Main.storyboard */,
+				42637AF51F057D810050F2B1 /* Info.plist */,
+				427DC8C41F05DFB800FCD51E /* Audio Files */,
+				42A66FC11F05949A00EDFF3A /* Extensions */,
+				42637B171F057DC40050F2B1 /* Supporting Files */,
+			);
+			path = StumpTrump;
+			sourceTree = "<group>";
+		};
+		42637AFD1F057D810050F2B1 /* StumpTrumpTests */ = {
+			isa = PBXGroup;
+			children = (
+				42637AFE1F057D810050F2B1 /* StumpTrumpTests.swift */,
+				42637B001F057D810050F2B1 /* Info.plist */,
+			);
+			path = StumpTrumpTests;
+			sourceTree = "<group>";
+		};
+		42637B081F057D810050F2B1 /* StumpTrumpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42637B091F057D810050F2B1 /* StumpTrumpUITests.swift */,
+				42637B0B1F057D810050F2B1 /* Info.plist */,
+			);
+			path = StumpTrumpUITests;
+			sourceTree = "<group>";
+		};
+		42637B171F057DC40050F2B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42637AF01F057D810050F2B1 /* Assets.xcassets */,
+				42637AF21F057D810050F2B1 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		427DC8C41F05DFB800FCD51E /* Audio Files */ = {
+			isa = PBXGroup;
+			children = (
+				423A59F61F05A535005FF286 /* americandream.mp3 */,
+				423A59F21F05A331005FF286 /* rich.mp3 */,
+				423A59F01F05A330005FF286 /* bigchina.mp3 */,
+			);
+			path = "Audio Files";
+			sourceTree = "<group>";
+		};
+		42A66FC11F05949A00EDFF3A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				428188631F057F9400D0C942 /* Array+RandomItem.swift */,
+				428188641F057F9400D0C942 /* Int+RandomPoint.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42637AE11F057D810050F2B1 /* StumpTrump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42637B0E1F057D810050F2B1 /* Build configuration list for PBXNativeTarget "StumpTrump" */;
+			buildPhases = (
+				42637ADE1F057D810050F2B1 /* Sources */,
+				42637ADF1F057D810050F2B1 /* Frameworks */,
+				42637AE01F057D810050F2B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StumpTrump;
+			productName = StumpTrump;
+			productReference = 42637AE21F057D810050F2B1 /* StumpTrump.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42637AF91F057D810050F2B1 /* StumpTrumpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42637B111F057D810050F2B1 /* Build configuration list for PBXNativeTarget "StumpTrumpTests" */;
+			buildPhases = (
+				42637AF61F057D810050F2B1 /* Sources */,
+				42637AF71F057D810050F2B1 /* Frameworks */,
+				42637AF81F057D810050F2B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42637AFC1F057D810050F2B1 /* PBXTargetDependency */,
+			);
+			name = StumpTrumpTests;
+			productName = StumpTrumpTests;
+			productReference = 42637AFA1F057D810050F2B1 /* StumpTrumpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42637B041F057D810050F2B1 /* StumpTrumpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42637B141F057D810050F2B1 /* Build configuration list for PBXNativeTarget "StumpTrumpUITests" */;
+			buildPhases = (
+				42637B011F057D810050F2B1 /* Sources */,
+				42637B021F057D810050F2B1 /* Frameworks */,
+				42637B031F057D810050F2B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42637B071F057D810050F2B1 /* PBXTargetDependency */,
+			);
+			name = StumpTrumpUITests;
+			productName = StumpTrumpUITests;
+			productReference = 42637B051F057D810050F2B1 /* StumpTrumpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42637ADA1F057D810050F2B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Charles Kang";
+				TargetAttributes = {
+					42637AE11F057D810050F2B1 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					42637AF91F057D810050F2B1 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 42637AE11F057D810050F2B1;
+					};
+					42637B041F057D810050F2B1 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 42637AE11F057D810050F2B1;
+					};
+				};
+			};
+			buildConfigurationList = 42637ADD1F057D810050F2B1 /* Build configuration list for PBXProject "StumpTrump" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42637AD91F057D810050F2B1;
+			productRefGroup = 42637AE31F057D810050F2B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42637AE11F057D810050F2B1 /* StumpTrump */,
+				42637AF91F057D810050F2B1 /* StumpTrumpTests */,
+				42637B041F057D810050F2B1 /* StumpTrumpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42637AE01F057D810050F2B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42637AE81F057D810050F2B1 /* Scene.sks in Resources */,
+				4281886C1F0587DD00D0C942 /* Main.storyboard in Resources */,
+				42637AF41F057D810050F2B1 /* LaunchScreen.storyboard in Resources */,
+				423A59F71F05A535005FF286 /* americandream.mp3 in Resources */,
+				423A59F31F05A331005FF286 /* bigchina.mp3 in Resources */,
+				42637AF11F057D810050F2B1 /* Assets.xcassets in Resources */,
+				423A59F51F05A331005FF286 /* rich.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42637AF81F057D810050F2B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42637B031F057D810050F2B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42637ADE1F057D810050F2B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42637AEC1F057D810050F2B1 /* ViewController.swift in Sources */,
+				42637AEA1F057D810050F2B1 /* Scene.swift in Sources */,
+				42637AE61F057D810050F2B1 /* AppDelegate.swift in Sources */,
+				428188681F057F9500D0C942 /* Int+RandomPoint.swift in Sources */,
+				428188651F057F9500D0C942 /* Array+RandomItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42637AF61F057D810050F2B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42637AFF1F057D810050F2B1 /* StumpTrumpTests.swift in Sources */,
+				428188661F057F9500D0C942 /* Array+RandomItem.swift in Sources */,
+				428188691F057F9500D0C942 /* Int+RandomPoint.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42637B011F057D810050F2B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42637B0A1F057D810050F2B1 /* StumpTrumpUITests.swift in Sources */,
+				428188671F057F9500D0C942 /* Array+RandomItem.swift in Sources */,
+				4281886A1F057F9500D0C942 /* Int+RandomPoint.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42637AFC1F057D810050F2B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42637AE11F057D810050F2B1 /* StumpTrump */;
+			targetProxy = 42637AFB1F057D810050F2B1 /* PBXContainerItemProxy */;
+		};
+		42637B071F057D810050F2B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42637AE11F057D810050F2B1 /* StumpTrump */;
+			targetProxy = 42637B061F057D810050F2B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42637AF21F057D810050F2B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42637AF31F057D810050F2B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42637B0C1F057D810050F2B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42637B0D1F057D810050F2B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42637B0F1F057D810050F2B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6QXD8H5YSP;
+				INFOPLIST_FILE = StumpTrump/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charleskang.StumpTrump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42637B101F057D810050F2B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6QXD8H5YSP;
+				INFOPLIST_FILE = StumpTrump/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charleskang.StumpTrump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		42637B121F057D810050F2B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6QXD8H5YSP;
+				INFOPLIST_FILE = StumpTrumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charleskang.StumpTrumpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StumpTrump.app/StumpTrump";
+			};
+			name = Debug;
+		};
+		42637B131F057D810050F2B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6QXD8H5YSP;
+				INFOPLIST_FILE = StumpTrumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charleskang.StumpTrumpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StumpTrump.app/StumpTrump";
+			};
+			name = Release;
+		};
+		42637B151F057D810050F2B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6QXD8H5YSP;
+				INFOPLIST_FILE = StumpTrumpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charleskang.StumpTrumpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StumpTrump;
+			};
+			name = Debug;
+		};
+		42637B161F057D810050F2B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6QXD8H5YSP;
+				INFOPLIST_FILE = StumpTrumpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charleskang.StumpTrumpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StumpTrump;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42637ADD1F057D810050F2B1 /* Build configuration list for PBXProject "StumpTrump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42637B0C1F057D810050F2B1 /* Debug */,
+				42637B0D1F057D810050F2B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42637B0E1F057D810050F2B1 /* Build configuration list for PBXNativeTarget "StumpTrump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42637B0F1F057D810050F2B1 /* Debug */,
+				42637B101F057D810050F2B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42637B111F057D810050F2B1 /* Build configuration list for PBXNativeTarget "StumpTrumpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42637B121F057D810050F2B1 /* Debug */,
+				42637B131F057D810050F2B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42637B141F057D810050F2B1 /* Build configuration list for PBXNativeTarget "StumpTrumpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42637B151F057D810050F2B1 /* Debug */,
+				42637B161F057D810050F2B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42637ADA1F057D810050F2B1 /* Project object */;
+}
